@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social on CanzoniereOnline.it</title>
+    <link>https://host.canzoniereonline.it/tags/social/</link>
+    <description>Recent content in Social on CanzoniereOnline.it</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Mon, 17 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://host.canzoniereonline.it/tags/social/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hidden social section showcase</title>
+      <link>https://host.canzoniereonline.it/2020/08/hidden-social-section-showcase/</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://host.canzoniereonline.it/2020/08/hidden-social-section-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the social section is hidden.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

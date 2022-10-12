@@ -1,0 +1,723 @@
+
+
+  
+
+  
+
+
+
+  
+
+
+  
+
+<!DOCTYPE html>
+<html lang="it-it">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.92.2">
+    <meta name="theme" content="Tranquilpeak 0.3.1-BETA">
+    <title>Crea canzoniere</title>
+    <meta name="author" content="CanzoniereOnline">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="images/logo.png">
+    
+
+    
+    <meta name="description" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Crea canzoniere">
+    <meta property="og:url" content="/crea/canzoniere/">
+    <meta property="og:site_name" content="CanzoniereOnline.it">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="CanzoniereOnline.it">
+    <meta name="twitter:description" content="">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="//www.gravatar.com/avatar/55ef4be5e82d11792224abae74208b64?s=640">
+    
+
+    
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" />
+    
+    
+    <link rel="stylesheet" href="https://canzoniereonline.it/css/style-u6mk0ojoywresbx8iepslrmmhl4stuhrsxuwhkpwrkrx7mryjcaimasnk4pi.min.css" />
+    <link rel="stylesheet" href="https://canzoniereonline.it/style/bootstrap.css" />
+    <link rel="stylesheet" href="https://canzoniereonline.it/style/bootstrap-theme.css" />
+    <link rel="stylesheet" href="https://canzoniereonline.it/style/crea.css" />
+    
+    
+      <link rel="stylesheet" href="https://canzoniereonline.it/style/canzoniere.css">
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-101229502-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+    
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    
+    <script>
+      function inviacanzoniere(token) {
+      if (app.canzoniere.eula){
+        if ((app.canzoniere.email).indexOf('@') > -1){
+        app.send();
+        console.log("inviato");
+        } else {
+          alert("Inserisci un indirizzo email valido! Lo useremo solo per inviarti il canzoniere quando sarà pronto!");
+          location.reload();
+        }
+      
+      } else {
+       alert("È necessario accettare i termini della licenza per poter creare il canzoniere.");
+       location.reload();        
+      }
+      }
+    </script>    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="5">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://canzoniereonline.it/">CanzoniereOnline.it</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://canzoniereonline.it/#about">
+    
+    
+    
+      
+        <img class="header-picture"  src="https://canzoniereonline.it/images/logo.png" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="5">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://canzoniereonline.it">
+          <img class="sidebar-profile-picture" src="https://canzoniereonline.it/images/logo.png" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">CanzoniereOnline</h4>
+        
+          <h5 class="sidebar-profile-bio">Un modo <em>semplice</em>, <em>veloce</em> e <em>gratuito</em> per creare i tuoi canzonieri!</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://canzoniereonline.it/crea/canzoniere">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-magic"></i>
+      
+      <span class="sidebar-button-desc">Crea</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://canzoniereonline.it/#about">
+    
+      <span class='relative'><i class="sidebar-button-icon fa fa-lg fa-paperclip"></i><span class='badge badgecart' id='badgecart'></span></span>
+      
+      <span class="sidebar-button-desc">Appunti</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://canzoniereonline.it/canzoni">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-music"></i>
+      
+      <span class="sidebar-button-desc">Canzoni</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://canzoniereonline.it/autori/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-user-o"></i>
+      
+      <span class="sidebar-button-desc">Autori</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://editor.canzoniereonline.it/" target="_blank">
+    
+      <span class='relative'><i class="sidebar-button-icon fa fa-lg fa-pencil-square-o"></i><span class='badge badgenew'> <small>Nuovo</small></span></span>
+      
+      <span class="sidebar-button-desc">Editor</span>
+    </a>
+  </li>
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://canzoniereonline.it/post/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-newspaper-o"></i>
+      
+      <span class="sidebar-button-desc">Blog</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://canzoniereonline.it/pagina/progetto">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-sitemap"></i>
+      
+      <span class="sidebar-button-desc">Il progetto</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://canzoniereonline.it/pagina/documentazione">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-book"></i>
+      
+      <span class="sidebar-button-desc">Come è fatto</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://canzoniereonline.it/pagina/collabora">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-handshake-o"></i>
+      
+      <span class="sidebar-button-desc">Collabora</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://canzoniereonline.it/pagina/roadmap">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-map-signs"></i>
+      
+      <span class="sidebar-button-desc">Roadmap</span>
+    </a>
+  </li>
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/CanzoniereOnLine/Archivio-Canzoni" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+    </ul>
+  </div>
+</nav>
+
+      <div id="main" data-behavior="5"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+  
+      <div id="app" class="row">
+        
+
+        
+        
+      <div class="col-md-6">
+      <datatable :columns="colonne" :data="elencocanzoni" :pagesize="pagesize" filterable paginate sortable></datatable>
+        <p>
+          <small>
+            <a href="https://canzoniereonline.it/crea/canzoniere/?reset">Resetta!</a>
+          </small>
+        </p>
+    </div>
+        
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-12 actionmenu" id="actionmenu">
+          <a v-on:click="sort" class="tooltip-top" data-tooltip="Ordina in ordine alfabetico"><span class="glyphicon glyphicon glyphicon-sort-by-alphabet" aria-hidden="true"></span>Ordina</a><b class="spaced"> | </b>
+          <a v-on:click="undo" class="tooltip-top" data-tooltip="Annulla l'ultima operazione" ><i class="fa fa-undo" aria-hidden="true" ></i>Annulla</span></a><b class="spaced"> | </b>
+          <a href="#about" class="tooltip-top" data-tooltip="Apri gli appunti" ><span class="glyphicon glyphicon glyphicon-paperclip" aria-hidden="true"></span>Appunti</a><b class="spaced"> | </b>
+          <a v-on:click="erase" class="tooltip-top" data-tooltip="Cancella tutte le canzoni"><span class="glyphicon glyphicon glyphicon-trash" aria-hidden="true"></span>Cancella</a>
+        </div>
+      </div>
+      <ul>
+        <draggable v-model="canzoniere.selezionecanzoni">
+        <li v-for="canzone in canzoniere.selezionecanzoni"> 
+          <div class="row">
+            <div class="col-md-8 move">
+              <canzoniselezionate v-bind:daticanzone="canzone"></canzoniselezionate>
+            </div>
+            <div class="col-md-4">
+              <span class="inline"><a v-on:click='canzone.transpose = (canzone.transpose + 1); evento +=1;' class="tooltip-top" data-tooltip="Alza di un semitono"><span class="glyphicon glyphicon-plus" aria-hidden="true" ></span></a></span>
+              <span class="inline"><a v-on:click='canzone.transpose = (canzone.transpose - 1); evento +=1;' class="tooltip-top" data-tooltip="Abbassa di un semitono"><span class="glyphicon glyphicon-minus" aria-hidden="true" ></span></a></span>
+              <span class="inline"><a v-on:click="canzoniere.selezionecanzoni.splice(canzoniere.selezionecanzoni.indexOf(canzone), 1)" class="tooltip-top" data-tooltip="Elimina la canzone"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a></span>
+            </div>
+          </div>  
+        </li>
+        </draggable>
+      </ul>
+    </div>
+
+
+    <div class="col-md-2">
+      <form>
+          <div class="input-field">
+            <label for="formatopagina">Formato Pagina</label>
+            <select id="formatopagina" class="form-control" v-model="canzoniere.formatopagina">
+              <option value="" selected>Scegli formato</option>
+              <option value="standard" selected>A4 Verticale</option>
+              <option value="a5vert">A5 verticale</option>
+              <option value="a5oriz">A5 orizzontale</option>
+              <option value="a6vert">A6 verticale</option>              
+              <option value="smart">Smartphone</option>              
+            </select>
+          </div>
+        
+          <div class="input-field">
+            <label for="carattere" >Carattere</label>
+            <select id="carattere" class="form-control" v-model="canzoniere.carattere">
+              <option value="Palatino" selected>Palatino</option>
+              <option value="Libertine">Libertine</option>
+            </select>
+          </div>
+          <div class="input-field">
+            <label for="numerocolonne">Numero Colonne</label>
+            <select id="numerocolonne" class="form-control" v-model="canzoniere.numerocolonne">
+              <option value="1"  selected>1</option>
+              <option value="2">2</option>
+            </select>
+          </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" v-model="canzoniere.indicetitolo" />
+                Indice per Titolo
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" v-model="canzoniere.indiceautore" />
+                Indice per Autore
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" v-model="canzoniere.indicemomenti" />
+                Indice per Momenti
+              </label>
+            </div>
+            <hr>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" id="copertina" v-model="canzoniere.copertina" />Copertina
+              </label>
+            </div>
+            <div id="campi_copertina">
+              <div class="form-group">
+                <input id="cappello" type="text" class="form-control" placeholder="Cappello" v-model="canzoniere.cappello">
+              </div>
+              <div class="form-group">
+                <input id="titolo" type="text" class="form-control" placeholder="Titolo" v-model="canzoniere.titolo">
+              </div>
+              <div class="form-group">
+                <input id="sottotitolo" type="text" class="form-control" placeholder="Sottotitolo" v-model="canzoniere.sottotitolo">
+              </div>
+            </div>
+        <hr>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="accordi" v-model="canzoniere.versioneaccordi"/>Versione con accordi
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="testo" v-model="canzoniere.versionetesto"/> Versione solo testi
+          </label>
+        </div>
+        <hr>
+        <div class="form-group">
+            <p>
+                Inserisci qui l'indirizzo email al quale sarà mandato il canzoniere.
+            </p>
+            <input id="last_name" type="email" class="form-control" placeholder="email" v-model="canzoniere.email"/>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="eula" v-model="canzoniere.eula"/> Accetto le <a href="https://canzoniereonline.it/eula">condizioni di utilizzo</a>
+          </label>
+        </div>
+        <button disabled data-sitekey="6Lf9Ji8UAAAAAEA0ZRZ3Xzn6uQs5vuyNe-QsE9Pl" data-callback="inviacanzoniere" type="button" class="g-recaptcha btn btn-success btn-lg" :disabled=!canzoniere.eula id="crea">Crea il canzoniere</button>
+        <hr>
+        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#caricacanzoniere">Carica Canzoniere</button>
+
+        </form>
+
+        <div class="modal fade" id="caricacanzoniere" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Carica il canzoniere</h4>
+              </div>
+              <div class="modal-body">
+               <p>Se hai già creato un canzoniere con il nostro nuovo sito, nella mail che ti è stata inviata dovresti aver ricevuto
+                 anche un <b>link</b> e un <b>codice</b>. 
+               </p>
+               <p>Per continuare a lavorare sul canzoniere che avevi creato ti basta cliccare sul link nella mail oppure <b>inserire il codice nella casella sottostante</b>.
+               </p> 
+               <p>Buon lavoro!</p>
+              <div class="form-inline">
+                <input id="idcanzoniere" type="text" class="form-control" placeholder="Inserisci il codice" size="20" v-model="hash"/>
+                <span> </span>
+                <button type="button" class="btn btn-warning" v-on:click="load">Carica il canzoniere</button>
+
+
+              </div>
+              
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    </div>        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+        
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://unpkg.com/vue"></script>
+
+      <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+
+      <script type="text/javascript" src="https://canzoniereonline.it/javascript/sortable.js"></script>
+      <script type="text/javascript" src="https://canzoniereonline.it/javascript/vuejs-datatable.js"></script>
+      <script type="text/javascript" src="https://canzoniereonline.it/javascript/vuedraggable.js"></script>
+      <script type="text/javascript" src="https://canzoniereonline.it/javascript/canzoniere.js"></script>
+      <script type="text/javascript" src="https://canzoniereonline.it/javascript/bootstrap.min.js"></script>
+
+
+
+
+
+        </article>
+      </div>
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    <h1 id="about-card-name"><i class="fa fa-paperclip" aria-hidden="true"></i><span class="spaced"></span>Blocco appunti</h1>
+    
+      <div id="about-card-bio">
+      <div class="row">
+      <div class="col-md-6 left">
+        <p> 
+          Questo elenco serve solo per appuntare le canzoni che vuoi inserire nel canzoniere.
+          Puoi scegliere in ogni momento se eliminarle dalla lista(<a><i class="fa fa-trash" aria-hidden="true"></i></a>)
+          oppure inserirle nel canzoniere (<a><span class='glyphicon glyphicon-share-alt' aria-hidden='true'></span></a>).
+        </p>
+        <p>
+          Quando <b><a href="https://canzoniereonline.it/crea/canzoniere"><i class="fa fa-magic" aria-hidden="true"></i>creerai il canzoniere</a></b>
+          le troverai già nell'elenco delle canzoni scelte, e ti basterà scegliere la tonalità e ordinarle.
+        </p>
+      </div>
+      <div class="col-md-6">
+      <ul id="cardcart">
+
+      </ul>      
+      </div>
+      </div>
+      </div>
+      <div>
+        <h4><a onclick="addtosongbook()">Aggiungi tutte al canzoniere</a></h4>
+      </div>
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Cerca" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">Nessun contenuto trovato</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://canzoniereonline.it/post/">
+                <h3 class="media-heading">Posts</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://canzoniereonline.it/2018/01/problemi-con-indice-tematico/">
+                <h3 class="media-heading">Problemi con indice tematico</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2018
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">Dopo qualche giorno con delle problematiche sull&rsquo;indice tematico, abbiamo risolto il problema. Purtroppo, però, la soluzione è dovuta passare per un piccolo cambio di sintassi del campo &ldquo;momenti&rdquo; nel file json da cui attinge le informazioni il software per la creazione dei canzonieri.
+Per questo motivo vi consigliamo, qualora aveste ancora delle canzoni &ldquo;salvate&rdquo; nell&rsquo;applicazione, di procedere ad un reset (piccola scritta in basso sotto la tabella dei canzonieri).
+Inoltre, se voleste aggiungere l&rsquo;indice tematico ai canzonieri che avete già prodotto, sfruttando il link nella mail oppure la funzione &ldquo;carica&rdquo; del canzoniere, otterrete purtroppo un errore: il nuovo indice tematico non è compatibile con i canzonieri creati prima del 10 gennaio.</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://canzoniereonline.it/2017/12/novit%C3%A0-e-piccole-migliorie/">
+                <h3 class="media-heading">Novità e piccole migliorie</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">Con questo post siamo lieti di informare tutti gli utenti di CanzoniereOnline di alcune piccole migliorie che negli ultimi giorni siamo riusciti ad implementare.
+In primo luogo, segnaliamo che da oggi è possibile creare dei canzonieri anche con un indice tematico oltre a quello alfabetico e per autore che già era presente ed attivo come opzione selezionabile.
+Inoltre, per facilitare l&rsquo;ampliamento del database delle canzoni e la collaborazione degli utenti, abbiamo creato uno strumento per proporre nuovi testi utilizzando una sintassi molto semplificata.</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://canzoniereonline.it/2017/12/segnalazioni-antivirus/">
+                <h3 class="media-heading">Segnalazioni antivirus</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Dec 12, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Alcuni utenti ci hanno segnalato che, nella scorsa settimana, il sito veniva segnalato come pericoloso dai principali antivirus. Vi informiamo che abbiamo individuato e risolto il problema: si trattava di una modifica malevole allo script che utilizzavamo per visualizzare il popup di accettazione dei cookie. Lo scopo del codice malevole era &ldquo;solo&rdquo; quello di compiere operazioni di <em>crypto mining</em>. In altre parole, mentre voi navigavate sul sito parte della vostra CPU era impegnata a cercare di ricavare bitcoin per qualcun&rsquo;altro. Non particolarmente pericoloso ma indubbiamente poco carino, da parte loro.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://canzoniereonline.it/2017/09/aaa-cercasi-foto/">
+                <h3 class="media-heading">AAA Cercasi Foto</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Il tema di questo sito è affamato di foto a tema &ldquo;canti in compagnia&rdquo;&hellip;</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://canzoniereonline.it/2017/09/benvenuti/">
+                <h3 class="media-heading">Benvenuti</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Poche righe per darvi il benvenuto su questo sito decisamente rinnovato!</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="Nessun contenuto trovato"
+         data-message-one="Trovato un post"
+         data-message-other="Trovati {n} post">
+         6 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://canzoniereonline.it/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.js"></script>
+
+
+<script src="https://canzoniereonline.it/js/script-wl33z0n6ocaypepiqrazthtivfrliqijej4rq8ek8gvrv1awftmgjuv8k4zc.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight').each(function(i, block) {
+    var code = "";
+    hljs.highlightAuto(block.innerText).value.split(/\r\n|\r|\n/).forEach(function(line) {
+      code += "<span class=\"line\">" + line + "</span><br>";
+    });
+    if (code.length > 0) {
+      block.innerHTML = code;  
+    }
+  });
+  $('pre > code').each(function(i, block) {
+    $(this).addClass('codeblock');
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+  
+    
+  
+
+
+
+<script src="https://canzoniereonline.it/javascript/canzoniereonlinebootstrap.min.js"></script>
+<script src="https://canzoniereonline.it/js/jquery.cookiebar.js"></script>
+
+
+
+   <script src="https://canzoniereonline.it/javascript/list.js"></script>
+
+   <script src="https://canzoniereonline.it/javascript/carrellocanzoni.js"></script>
+
+
+    
+
+    <script>
+    $(document).ready(function(){
+    $("#numero_canzonieri").load("https://api.canzoniereonline.it/numero/canzonieri");
+    $.cookieBar({
+    message: "Questo usa dei cookie, piccoli \"biscottini\" che ci servono per raccogliere statistiche sui visitatori.",
+    acceptButton: true,
+    acceptText: "Ho capito, non annoiarmi.",
+    acceptFunction: null,
+    declineButton: false,
+    policyButton: true,
+    policyText: "Dimmi di più!",
+    policyURL: 'https://canzoniereonline.it/biscotti',
+    autoEnable: true,
+    fixed: true,
+    bottom: false,
+    zindex: '10000'
+    }
+    );
+    });
+    </script>
+    
+    
+    
+  </body>
+</html>
+

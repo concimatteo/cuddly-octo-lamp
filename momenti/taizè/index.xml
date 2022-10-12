@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taizè on CanzoniereOnline.it</title>
+    <link>https://canzoniereonline.it/momenti/taiz%C3%A8/</link>
+    <description>Recent content in Taizè on CanzoniereOnline.it</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    
+	<atom:link href="https://canzoniereonline.it/momenti/taiz%C3%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adoramus te Christe</title>
+      <link>https://canzoniereonline.it/canzoni/adoramus_te_christe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/canzoni/adoramus_te_christe/</guid>
+      <description>Adoramus te Christe, benediciums tibi,
+quia per crucem tuam redemisti mundum,
+quia per crucem tuam redemisti mundum.</description>
+    </item>
+    
+    <item>
+      <title>Adoramus te Domine</title>
+      <link>https://canzoniereonline.it/canzoni/adoramus_domine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/canzoni/adoramus_domine/</guid>
+      <description>Oh adoramus te, Domine
+Oh adoramus te, Domine.</description>
+    </item>
+    
+  </channel>
+</rss>

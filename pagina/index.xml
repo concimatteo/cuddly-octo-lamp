@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paginas on CanzoniereOnline.it</title>
+    <link>https://canzoniereonline.it/pagina/</link>
+    <description>Recent content in Paginas on CanzoniereOnline.it</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Sat, 03 Feb 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://canzoniereonline.it/pagina/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roadmap</title>
+      <link>https://canzoniereonline.it/pagina/roadmap/</link>
+      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/pagina/roadmap/</guid>
+      <description>Roadmap In questa pagina inseriamo le cose che abbiamo in progetto di fare, prima o poi, per CanzoniereOnline.it. È un elenco casuale e certamente incompleto, quindi non fatevi timore a segnalarci nuove proposte a canzoniereonline@gmail.com.
+Fatte  Creazione di un editor online per facilitare l&amp;rsquo;ampliamento del canzoniere Inserimento degli indici tematici tra le opzioni per la creazione dei canzonieri Aggiunta possibilità di inserire un video nelle pagine delle canzoni  Da fare  Migliorare gestione degli errori avvisando gli utenti quando qualcosa va storto (al momento semplicemente la mail non arriva) Aggiungere un controllo per la corretta compilazione del canzoniere alla ricostruzione del sito Aggiungere dei nuovi caratteri e formati per il canzoniere Migliorare lo script per la generazione dell&amp;rsquo;anteprima dei testi Creazione di video tutorial per spiegare come funziona il canzoniere Aggiungere il video corretto a 100 canzoni Aggiungere il video corretto a 200 canzoni Aggiungere il video corretto a 300 canzoni Aggiungere il video corr&amp;hellip; beh, avete capito Modificare l&amp;rsquo;immagine di sfondo del sito con immagini più belle e a tema Migliorare il template delle email inviate (grafica e inserimento elenco canzoni per failitare la ricerca) Migliorare parser pe la generazione di anteprime testi senza accordi  </description>
+    </item>
+    
+    <item>
+      <title>Collabora</title>
+      <link>https://canzoniereonline.it/pagina/collabora/</link>
+      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/pagina/collabora/</guid>
+      <description>Se vuoi collaborare alla crescita del sito contribuendo con nuove canzoni puoi farlo in maniera molto semplice. Per aiutarti nella scrittura, infatti, abbiamo creato uno strumento online che traduce la sintassi base ChordPro in quella più complessa di LaTeX. Lo puoi trovare qui. Sempre dalla stessa pagina potrai inviarci la tua proposta direttamente.
+Se invece vuoi invece sfruttare tutte le potenzialità della sintassi di song, puoi leggere nella sezione documentazione come fare per trascrivere una canzone in codice LaTeX e inviare il testo a canzoniereonline@gmail.</description>
+    </item>
+    
+    <item>
+      <title>Documentazione</title>
+      <link>https://canzoniereonline.it/pagina/documentazione/</link>
+      <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/pagina/documentazione/</guid>
+      <description>Forniamo alcuni documenti che possono aiutare nella comprensione del codice LaTeX usato per comporre i canzonieri e alla fine permettere di scrivere da soli dei testi in codice LaTeX.
+Innanzitutto per un&amp;rsquo;introduzione generale a LaTeX si può consultare il sito del GuiT (Gruppo degli utilizzatori italiani di TeX e LaTeX) www.guitex.org. Il sito ha una corposa sezione dedicata alla documentazione e un forum in cui si possono fare le domane più disparate.</description>
+    </item>
+    
+    <item>
+      <title>Il progetto</title>
+      <link>https://canzoniereonline.it/pagina/progetto/</link>
+      <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/pagina/progetto/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La storia&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2007&lt;/strong&gt; - disastro, è andato perso il file del canzoniere del coro dei giovani della Parrocchia. Era un classico esempio di canzoniere parrocchiale: testo in Comic Sans, accordi in neretto, non sempre messi al posto giusto. E allora con calma e con i mezzi a disposizione si comincia a riscriverlo. Ancora Word, ma stavolta con un font non proporzionale (Courier New), in modo che gli accordi stiano fermi dove devono stare anche se si cambia corpo del testo. La parte più corposa del lavoro è stata la correzione degli accordi sbagliati e del loro corretto posizionamento, ma ore di comparazione con gli spartiti originali e di prove a orecchio hanno portato a un buon risultato.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2008&lt;/strong&gt; - ancora Word, per il rifacimento del canzoniere del CFM RS Trentino Alto Adige (robe scout, ora non c&amp;rsquo;è nemmeno più quel campo), che poi è stato usato per il primo CFT TAA.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2008&lt;/strong&gt; - al lavoro serve impaginare un libro, e dopo ore a piangere su Word si scopre l&amp;rsquo;esistenza di LaTeX, e si spalancano le porte su un mondo incredibile&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2010&lt;/strong&gt; - dopo anni di apprendimento e di scoperta delle potenzialità di LaTeX, si scopre il pacchetto Songs di Kevin Hamlen, che soddisfa innumerevoli esigenze di chi (tra)scrive canzoni: accordi messi al posto giusto, sintassi semplice, ottima gestione delle strutture logiche (strofe, ritornelli, &amp;hellip;) e soprattutto la trasposizione automatica degli accordi!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2011&lt;/strong&gt; - &lt;strong&gt;L&amp;rsquo;IDEA&lt;/strong&gt; &amp;ldquo;Perché non creare un servizio online per la creazione di canzonieri?&amp;rdquo; Si è partiti con l&amp;rsquo;idea di rinnovare l&amp;rsquo;allora esistente canzoniere online della Pastorale Giovanile di Trento. Poi problemi logistico-burocratici ci hanno portato a seguire una strada separata. Comincia quindi un grosso lavoro di trascrizione dei testi in codice LaTeX.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2015&lt;/strong&gt; - Il progetto canzoniereonline.it viene presentato al GuiTmeeting (ritrovo annuale degli utenti di LaTeX) il 17 ottobre a Trento. Pochi giorni dopo viene presentato all&amp;rsquo;Assemblea Regionale AGESCI TAA. Il servizio online è attivo, per quanto ancora in fase alfa.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2017&lt;/strong&gt; - Versione beta del progetto (quella che vedete ora): nuovo server, nuova grafica, nuove potenzialità.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cookie</title>
+      <link>https://canzoniereonline.it/pagina/cookie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/pagina/cookie/</guid>
+      <description>Cookie Policy Usiamo i cookie di Google per tracciare la navigazione degli utenti in forma anonima e capire così quanto venga usato questo sito.
+Per ulteriori informazioni, si rinvia al link di seguito indicato:
+https://www.google.it/policies/privacy/partners/
+L&amp;rsquo;utente può disabilitare in modo selettivo l&amp;rsquo;azione di Google Analytics installando sul proprio browser la componente di opt-out fornito da Google. Per disabilitare l&amp;rsquo;azione di Google Analytics, si rinvia al link di seguito indicato:
+https://tools.google.com/dlpage/gaoptout</description>
+    </item>
+    
+    <item>
+      <title>EULA</title>
+      <link>https://canzoniereonline.it/pagina/eula/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/pagina/eula/</guid>
+      <description>EULA Ovvero, End User License Agreement In altre parole, le condizioni a cui offriamo il servizo!
+1. Il servizio è gratuito Non chiediamo soldi per i canzonieri che create e non ne chiederemo in futuro!
+2. Non possediamo i diritti dei testi delle canzoni E quindi non li possedete nemmeno voi. I canzonieri possono essere prodotti solo per uso interno e in ogni caso senza scopo di lucro. Inoltre, se un autore ritenesse opportuna la rimozione del suo testo dal nostro databse, può scriverci a canzoniereonline@gmail.</description>
+    </item>
+    
+    <item>
+      <title>Ringraziamenti</title>
+      <link>https://canzoniereonline.it/pagina/crediti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/pagina/crediti/</guid>
+      <description>&lt;p&gt;Questo servizio si appoggia a molti progetti open source o gratuiti sia per la creazione dei canzonieri che per la costruzione del sito.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;HuGo è il sistema che usiamo per generare il sito&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Caddy è il server a cui ci appoggiamo per la distribuzione dei contenuti&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vue.js è la libreria su cui ci appoggiamo per creare il &amp;ldquo;frontend&amp;rdquo; del sito&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NodeJs è il linguaggio utilizzato per gestire il &amp;ldquo;backend&amp;rdquo; del servizio&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GitHub è il luogo dove risiedono sorgenti e contenuti del sito&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;tranquilpeak è il tema su cui si appoggia il sito web&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LaTeX è il sistema utilizzato per la creazione dei canzonieri&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Songs è il pacchetto di LaTeX che rende possibile l&amp;rsquo;impaginazione delle canzoni&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

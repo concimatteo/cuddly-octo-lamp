@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on CanzoniereOnline.it</title>
+    <link>https://canzoniereonline.it/post/</link>
+    <description>Recent content in Posts on CanzoniereOnline.it</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Tue, 09 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://canzoniereonline.it/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problemi con indice tematico</title>
+      <link>https://canzoniereonline.it/2018/01/problemi-con-indice-tematico/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/2018/01/problemi-con-indice-tematico/</guid>
+      <description>Dopo qualche giorno con delle problematiche sull&amp;rsquo;indice tematico, abbiamo risolto il problema. Purtroppo, però, la soluzione è dovuta passare per un piccolo cambio di sintassi del campo &amp;ldquo;momenti&amp;rdquo; nel file json da cui attinge le informazioni il software per la creazione dei canzonieri.
+Per questo motivo vi consigliamo, qualora aveste ancora delle canzoni &amp;ldquo;salvate&amp;rdquo; nell&amp;rsquo;applicazione, di procedere ad un reset (piccola scritta in basso sotto la tabella dei canzonieri).
+Inoltre, se voleste aggiungere l&amp;rsquo;indice tematico ai canzonieri che avete già prodotto, sfruttando il link nella mail oppure la funzione &amp;ldquo;carica&amp;rdquo; del canzoniere, otterrete purtroppo un errore: il nuovo indice tematico non è compatibile con i canzonieri creati prima del 10 gennaio.</description>
+    </item>
+    
+    <item>
+      <title>Novità e piccole migliorie</title>
+      <link>https://canzoniereonline.it/2017/12/novit%C3%A0-e-piccole-migliorie/</link>
+      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/2017/12/novit%C3%A0-e-piccole-migliorie/</guid>
+      <description>Con questo post siamo lieti di informare tutti gli utenti di CanzoniereOnline di alcune piccole migliorie che negli ultimi giorni siamo riusciti ad implementare.
+In primo luogo, segnaliamo che da oggi è possibile creare dei canzonieri anche con un indice tematico oltre a quello alfabetico e per autore che già era presente ed attivo come opzione selezionabile.
+Inoltre, per facilitare l&amp;rsquo;ampliamento del database delle canzoni e la collaborazione degli utenti, abbiamo creato uno strumento per proporre nuovi testi utilizzando una sintassi molto semplificata.</description>
+    </item>
+    
+    <item>
+      <title>Segnalazioni antivirus</title>
+      <link>https://canzoniereonline.it/2017/12/segnalazioni-antivirus/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/2017/12/segnalazioni-antivirus/</guid>
+      <description>&lt;p&gt;Alcuni utenti ci hanno segnalato che, nella scorsa settimana, il sito veniva segnalato come pericoloso dai principali antivirus. Vi informiamo che abbiamo individuato e risolto il problema: si trattava di una modifica malevole allo script che utilizzavamo per visualizzare il popup di accettazione dei cookie. Lo scopo del codice malevole era &amp;ldquo;solo&amp;rdquo; quello di compiere operazioni di &lt;em&gt;crypto mining&lt;/em&gt;. In altre parole, mentre voi navigavate sul sito parte della vostra CPU era impegnata a cercare di ricavare bitcoin per qualcun&amp;rsquo;altro. Non particolarmente pericoloso ma indubbiamente poco carino, da parte loro.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AAA Cercasi Foto</title>
+      <link>https://canzoniereonline.it/2017/09/aaa-cercasi-foto/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/2017/09/aaa-cercasi-foto/</guid>
+      <description>&lt;p&gt;Il tema di questo sito è affamato di foto a tema &amp;ldquo;canti in compagnia&amp;rdquo;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Benvenuti</title>
+      <link>https://canzoniereonline.it/2017/09/benvenuti/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://canzoniereonline.it/2017/09/benvenuti/</guid>
+      <description>&lt;p&gt;Poche righe per darvi il benvenuto su questo sito decisamente rinnovato!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
